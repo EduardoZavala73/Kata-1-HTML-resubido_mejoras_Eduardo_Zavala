@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8"
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0"
+    <title></title>
+</head>
+<body>
+    <img src="./¡ LOGO PASTELERIA ORBITAL!.png" alt="PASTELERIA ORBITAL" width="200px">
+    <h1>Pedido</h1>
+
+    <form action="pedido.js">
+        <p>Proporcione los siguientes datos para atender su pedido</p>
+        <label for="Nombre">Nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br>
+
+        <label for="tel1">Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" placeholder="Telefono">
+
+        <br>
+
+        <label for="correo1">Correo electrónico</label><br>
+        <input type="email" id="correo1" name="correo1" placeholder="Correo">
+
+        <br>
+
+        <P>Elija sabores y decoraciones para completar su pedido</P>
+
+        <br>
+        
+        <p>¿Qué paquete de sabores?</p>
+        <label for="correo1">Elija el paquete 1, 2 o 3</label><br>
+        <input type="number" id="paquete" name="paquete" placeholder="paquete">
+
+        <p>¿Cuantos sabores?</p>
+        <p>Nota: Escoga la cantidad de sabores de acuerdo a su paquete</p>
+        <input type="radio" id="1 a 2" name="1a2" value="1 sabor"
+        <label for="1 sabor">1 sabor</label><br>
+        <input type="radio" id="1 a 2" name="1a2" value="2 sabores"
+        <label for="2 sabores">2 sabores</label><br>
+        <input type="radio" id="3 a 4" name="3a4" value="3 sabores"
+        <label for="3 sabores">3 sabores</label><br>
+        <input type="radio" id="3 a 4" name="3a4" value="4 sabores"
+        <label for="4 sabores">4 sabores</label><br>
+        <input type="radio" id="5 a 6" name="5a6" value="5 sabores"
+        <label for="5 sabores">5 sabores</label><br>
+        <input type="radio" id="5 a 6" name="5a6" value="6 sabores"
+        <label for="6 sabores">6 sabores</label><br>
+
+        <p>¿Cuáles sabores?</p>
+        <p>Nota: Solo escoga los sabores de acuerdo a su paquete</p>
+        <input type="checkbox" id="Zarzamora" name="Zarzamora" value="Zarzamora"
+        <label for="Zarzamora">Zarzamora</label>
+
+        <br>
+
+        <input type="checkbox" id="Queso" name="Queso" value="Queso"
+        <label for="Queso">Queso</label>
+       
+        <br>
+
+        <input type="checkbox" id="Fresa" name="Fresa" value="Fresa"
+        <label for="Fresa">Fresa</label>
+
+        <br>
+
+        <input type="checkbox" id="Frambuesa" name="Frambuesa" value="Frambuesa"
+        <label for="Frambuesa">Frambuesa</label>
+
+        <br>
+
+        <input type="checkbox" id="Nuez" name="Nuez" value="Nuez"
+        <label for="Nuez">Nuez</label>
+
+        <br>
+
+        <input type="checkbox" id="Mango" name="Mango" value="Mango"
+        <label for="Mango">Mango</label>
+
+
+        <p>¿Qué decoración y cuántos?</p>
+        <select name="decoración" id="decoración">
+            <option value="=Muñeca">Muñeca</option>
+            <option value="=Muñeco">Muñeco</option>
+            <option value="=Vela simple">Vela simple</option>
+            <option value="=Corazón">Corazón</option>
+            <option value="=Número (0 al 9)">Número (0 al 9)</option>
+            <option value="Balón">Balón</option>
+        </select>
+
+        <input type="number" id="Cuántos" name="Cuántos" placeholder="Cuántos">
+
+
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+    </form>
